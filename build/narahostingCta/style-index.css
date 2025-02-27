@@ -42,8 +42,8 @@
 
 .container {
   margin: 0 130px;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .wp-block-post-featured-image {
@@ -91,11 +91,15 @@
 .narahosting-cta-subheadingh2 {
   font-size: 33px;
 }
+.narahosting-cta-content {
+  margin: 3vh 0;
+}
 
 @media (max-width: 925px) {
   .narahosting-cta-block {
-    display: flex;
+    display: flex !important;
     flex-direction: column;
+    gap: 0px;
   }
 }
 

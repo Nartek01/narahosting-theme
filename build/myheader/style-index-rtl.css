@@ -48,8 +48,8 @@
 
 .container {
   margin: 0 130px;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .wp-block-post-featured-image {
@@ -79,11 +79,4 @@
 .narahosting-primary-button:hover {
   background-color: #F87060;
   transition: 600ms;
-}
-
-.wp-block-post-featured-image {
-  justify-self: center;
-}
-.wp-block-post-featured-image img {
-  max-width: 800px;
 }

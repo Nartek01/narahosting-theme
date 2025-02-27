@@ -58,8 +58,8 @@ $breakpoint-tablet: 925px;
 
 .container {
     margin: 0 130px;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .wp-block-post-featured-image {
