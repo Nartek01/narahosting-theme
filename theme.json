@@ -1,0 +1,18 @@
+{
+	"version": 2,
+	"settings": {
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFamily": "Poppins,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+					"slug": "system-fonts",
+					"name": "System fonts"
+				}
+			]
+		}
+	},
+	"style": "file:./style.css",
+	"viewScript": "file:./view.js",
+	"attributes": {},
+	"dependencies": ["narahosting-main-css"]
+}

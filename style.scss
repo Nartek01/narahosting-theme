@@ -1,0 +1,85 @@
+/*
+
+Theme Name: Narahosting Theme
+*/
+
+/** GLOBAL */
+
+/** Variables */
+$primary-color: #F87060;
+$secondary-color: #46455E;
+$accent-dark-color: #595959;
+$accent-light-color: #FFF;
+
+$font-xxl: 71px;
+$font-xl: 33px;
+$font-large: 27px;
+$font-xm: 22px;
+$font-medium: 20px;
+$font-sm: 18px;
+
+$breakpoint-tablet: 925px;
+
+/** TITLE */
+.wp-block-narahosting-myheader {
+    & a {
+        font-weight: bold;
+        color: black;
+        text-decoration: none;
+    }
+}
+
+.wp-block-narahosting-myheader {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    padding: 0 21vw;
+}
+
+/** Navigational items */
+.menu-items {
+    display: flex;
+    list-style-type: none;
+    gap: 15px;
+    align-items: center;
+
+    & a {
+        color: $secondary-color;
+        text-decoration: none;
+    }
+}
+
+@media (max-width: $breakpoint-tablet) {
+    .wp-block-narahosting-myheader {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu-items {
+        flex-direction: column;
+    }
+}
+
+.narahosting-primary-button {
+    background-color: $accent-light-color;
+    padding: 14px 36px;
+    border: solid 3px $secondary-color;
+    border-radius: 3px;
+
+    & a {
+        color: $secondary-color;
+        text-decoration: none;
+    }
+}
+
+.container {
+    margin: 0 130px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 925px) {
+    .container {
+        margin: 0px 0px;
+    }
+}
