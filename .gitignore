@@ -1,0 +1,6 @@
+node_modules
+src/*
+.editorconfig
+package-lock.json
+package.json
+readme.txt
