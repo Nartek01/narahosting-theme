@@ -1,8 +1,3 @@
-/*
-
-Theme Name: Narahosting Theme
-*/
-
 /** GLOBAL */
 
 /** Variables */
@@ -49,17 +44,6 @@ $breakpoint-tablet: 925px;
     }
 }
 
-@media (max-width: $breakpoint-tablet) {
-    .wp-block-narahosting-myheader {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .menu-items {
-        flex-direction: column;
-    }
-}
-
 .narahosting-primary-button {
     background-color: $accent-light-color;
     padding: 14px 36px;
@@ -78,8 +62,28 @@ $breakpoint-tablet: 925px;
     flex-direction: column;
 }
 
-@media (max-width: 925px) {
+.wp-block-post-featured-image {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/** TABLE MOBILE SETTINGS */
+@media (max-width: $breakpoint-tablet) {
+    .wp-block-narahosting-myheader {
+        display: flex !important;
+        flex-direction: column;
+    }
+
+    .menu-items {
+        flex-direction: column !important;
+    }
+
     .container {
-        margin: 0px 0px;
+        margin: 0px 0px !important;
+        display: flex;
+        flex-direction: column;
     }
 }
+
