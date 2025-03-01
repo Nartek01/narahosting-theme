@@ -5,6 +5,7 @@ function narahosting_block_init() {
 	register_block_type( __DIR__ . '/build/narahostingCta' );
 	register_block_type( __DIR__ . '/build/narahostingHeroBlock' );
 	register_block_type( __DIR__ . '/build/narahostingLatestPosts' );
+	register_block_type( __DIR__ . '/build/narahostingCodeBlock' );
 }
 add_action( 'init', 'narahosting_block_init' );
 
