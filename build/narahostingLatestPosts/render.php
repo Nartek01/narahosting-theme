@@ -45,7 +45,7 @@ $latest_posts = new WP_Query($args);
                         <?php else: ?>
                             <a href="<?php the_permalink(); ?>">
                                 <div class="post-excerpt">
-                                    <p><?php esc_html_e('No excerpt found', 'narahosting-latest-posts'); ?></p>
+                                    <p><?php echo wp_trim_words(get_the_content(), 20, '...'); ?></p>
                                 </div>
                             </a>
                         <?php endif; ?>
