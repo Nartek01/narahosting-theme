@@ -1,1 +1,18 @@
-.narahosting-code-block{grid-template-columns:1fr auto!important;margin:0!important}pre{background-color:#000;border-radius:3px;color:#1ce875;font-family:Consolas,Courier New,monospace;font-size:.95em;padding:2px 4px}
+/*!*************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/narahostingCodeBlock/editor.scss ***!
+  \*************************************************************************************************************************************************************************************************************************************************************/
+.narahosting-code-block {
+  margin: 0 0 !important;
+  grid-template-columns: 1fr auto !important;
+}
+
+pre {
+  font-family: Consolas, "Courier New", monospace;
+  background-color: #000;
+  color: #1ce875;
+  padding: 2px 4px;
+  border-radius: 3px;
+  font-size: 0.95em;
+}
+
+/*# sourceMappingURL=index.css.map*/
