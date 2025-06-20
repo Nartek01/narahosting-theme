@@ -4,3 +4,4 @@ src/*
 package-lock.json
 package.json
 readme.txt
+build/*
